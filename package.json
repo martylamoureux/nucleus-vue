@@ -1,0 +1,22 @@
+{
+  "name": "vue-nucleus",
+  "version": "0.9.0",
+  "description": "Tools for fluent UI designing in Vue 3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~3.9.3"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Marty Lamoureux",
+  "license": "ISC"
+}
